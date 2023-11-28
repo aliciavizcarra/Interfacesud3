@@ -1,0 +1,7 @@
+details:not([open]) > summary {
+    list-style-image: url('https://cdn-icons-png.flaticon.com/512/1234/1234292.png'); /* Ruta de la imagen para el estado cerrado */
+  }
+
+  /* Estilo del icono abierto con una imagen */
+  details[open] > summary {
+    list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Im7CcJNgGbF1uQDPT5s2P1WAKlfDy1L2i-bgPAMtHw&s'); /* Ruta de la imagen para el estado abierto */}
