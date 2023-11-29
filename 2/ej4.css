@@ -1,0 +1,9 @@
+p{
+    background-color: red;
+    width: 100px;
+    text-align: center;
+    transition: transform 1s ease-in-out;
+}
+p:hover{
+    transform: rotate(360deg);
+}

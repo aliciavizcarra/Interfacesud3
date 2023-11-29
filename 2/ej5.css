@@ -1,0 +1,10 @@
+p{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition: transform 2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+p:hover{
+    transform: rotate(360deg);
+}

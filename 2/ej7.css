@@ -1,0 +1,7 @@
+svg{
+    transition: transform 2s infinite;
+    transition-duration: 2s;
+}
+svg:hover{
+   transform: scale(2);
+}

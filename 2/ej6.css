@@ -1,0 +1,7 @@
+svg{
+    translate: 0 0;
+    transition: translate 5s easy-in;
+}
+svg:hover{
+    translate: 50px 0px;
+}
