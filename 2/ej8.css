@@ -1,0 +1,16 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red;transform: skew(5deg,10deg); left:0px; top:0px;}
+    25%  {background-color:yellow;transform: skew(10deg,20deg);; left:200px; top:0px;}
+    50%  {background-color:blue;transform: skew(20deg,40deg); left:200px; top:200px;}
+    75%  {background-color:green;transform: skew(40deg,60deg); left:0px; top:200px;}
+    100% {background-color:red; transform: skew(0deg,0deg);left:0px; top:0px;}
+  }
